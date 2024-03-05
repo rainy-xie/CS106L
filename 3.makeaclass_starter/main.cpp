@@ -1,5 +1,7 @@
 #include "class.h"
-
+#include "class.cpp"
+#include <iostream>
+#include <string>
 /*
  * Assigment 3: Make a class!
  * Requirements:
@@ -14,5 +16,9 @@
 
 int main() {
   // initialize class and run this file
+  MyClass<int> classOne;
+  MyClass<std::string> classTwo("hello");
+  std::cout << classOne.getValue() << std::endl;
+  std::cout << classTwo.getValue() << std::endl;
   return 0;
 }

@@ -16,4 +16,7 @@
 2.marriagepact_starter
 set、queue容器的简单使用
 
+3.makeaclass_starter
+编写类并模板化，注意模板类的声明和实现的分离问题（必须要在模板类的实现文件中显示实例化，否则会出现链接错误）
+
 # note
