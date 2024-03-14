@@ -32,4 +32,10 @@ set、queue容器的简单使用
 
 模板函数、容器算法、lambda表达式
 
+5.treebook_starter
+
+类的特殊成员函数、运算符重载
+
+（bug：题中要求删除拷贝构造函数导致insert不可用）
+
 ## note
